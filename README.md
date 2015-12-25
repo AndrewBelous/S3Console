@@ -2,12 +2,12 @@
 Simple command-line S3 browser.
 
 Available actions are:
-        list-buckets
-        list
-        delete
-        set-bucket
-        gen-download-url
-        page-size
+	list-buckets
+	list
+	delete
+	set-bucket
+	gen-download-url
+	page-size
 Get action specific help with "[action]:"
 
 list-buckets:
@@ -27,3 +27,4 @@ Usage: "set-bucket [bucket]"
 gen-download-url:
 Usage: "gen-download-url [bucket] [key]"
         Ex: "gen-download-url mybucket.bucket.com xml/967871/blah.xml "
+		
